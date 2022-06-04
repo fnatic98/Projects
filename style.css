@@ -63,3 +63,69 @@ button{
     gap: 120px;
     
 }
+
+/*second section styles*/
+
+.second-div{
+    background-color: #f9faf8;
+    padding: 100px;
+    padding-top: 50px;
+}
+
+.second-div-tittle{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.second-container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    
+}
+.first, 
+.second, 
+.third, 
+.fourth {
+height: 160px;
+width: 160px;
+border-radius: 10px;
+border: 3px solid #2882f6;
+
+}
+.second-container p{
+   width: 160px;
+   text-align:center ;
+   flex-wrap: wrap;
+   font-size: 18px;
+   margin: 0;
+   
+}
+
+/*third section*/
+.third-div{
+    background-color: #e5e7eb;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
+    padding: 100px;
+}
+.text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: start;
+    flex-wrap: wrap;
+}
+.quote-name{
+    font-weight: bolder;
+    text-align: end;  
+    
+}
+.quote{
+    width: 60%; 
+}
+
